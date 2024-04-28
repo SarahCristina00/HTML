@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha(){
+
+		document.write("<br><br>");
+	}
+
+	function mostra(frase){
+
+		document.write(frase);
+	}
+
+	var inicio = 1500;
+	var atualidade = 2022;
+	var tempoTotal = atualidade - inicio;
+	var geracao = tempoTotal/28;
+
+	mostra("A quantidade de gerações desde 1500 é : " + Math.round (geracao) );
+	pulaLinha();
+
+</script>
